@@ -1,0 +1,129 @@
+:root {
+    --primarycolor: #ff274b;
+    --socendrycolor: #f7bcf7;
+    --lightcolor: #ffffff;
+    --bgcolor-1: #171a1c;
+    --bgcolor-2: #22282a;
+    --padding: 8%;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", system-ui;
+
+}
+
+body{
+    min-height: 100vh;
+    background: url(../image/pedro-lastra-Nyvq2juw4_o-unsplash.jpg) no-repeat center rgba(0,0,0,0.5);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+font-size: 32px;
+font-weight: 700;
+text-decoration: none;
+color: #fff;
+
+}
+
+.navbar a{
+text-decoration: none;
+margin-left: 40px;
+font-size: 18px;
+font-weight: 500;
+color: #fff;
+position: relative;
+
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width:0;
+    height: 3px;
+    transition: .3s;
+    background:var(--primarycolor);
+}
+
+.navbar a:hover:before{
+width: 100%;
+
+}
+
+.btn {
+    padding: 0.6rem 1.5rem !important;
+    color: var(--lightcolor) !important;
+    background-color: var(--primarycolor) !important;
+    border: solid 2px transparent !important;
+    transition: 0.4s !important;
+    border-radius: 30px !important;
+    text-decoration: none !important;
+}
+
+.btn:hover {
+    background-color: transparent !important;
+    border: solid var(--primarycolor) 2px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
